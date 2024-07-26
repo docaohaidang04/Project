@@ -1,0 +1,122 @@
+ body {
+    overflow-x: hidden; /* Ngăn chặn thanh di chuyển ngang */
+    margin-top: 80px; 
+}
+ .custom-ul {
+        position: absolute;
+        left: 1200px; 
+    }
+.image-link img {
+    width: 100px; /* Kích thước mặc định của hình ảnh */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng chuyển đổi */
+}
+.image-link {
+    text-decoration: none;
+    color: black;
+}
+.image-link:hover img {
+    transform: scale(1.1); /* Phóng to hình ảnh lên 1.1 lần khi hover */
+}
+
+.nav:hover{
+   
+    color: black;
+}
+.card.border-primary:hover {
+        border-color: #007bff; /* Màu viền khi hover */
+    }
+
+.card-body:hover {
+        background-color: #f8f9fa; /* Màu nền khi hover */
+    }
+    .voucher {
+        background-color: #f8f9fa;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+    }
+
+.voucher img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+.all:hover {
+    color: red;
+}
+#countdown {
+       
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+    border-color: transparent !important;
+}
+.nav-link:hover {
+    background-color: transparent !important;
+}
+aside {
+    flex-basis: 100%;
+}
+
+/* CSS cho thẻ <article> */
+article {
+    flex-basis: calc(100% - 320px); /* Thay đổi giá trị 320px tùy thuộc vào kích thước mong muốn */
+}
+.banner2 {
+    display: flex; /* Sử dụng flexbox để căn giữa theo chiều ngang */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.banner2 img {
+    width: 80%; /* Độ rộng của ảnh */
+    align-self: center; /* Căn giữa theo chiều dọc */
+}
+.nav-link {
+    border-bottom: none;
+}
+
+/* Xoá text-decoration */
+.nav-link {
+    text-decoration: none;
+}
+.header {
+  background: #6a6868;
+  font-size: 12px;
+  width: 100%;
+  transition: 0.3s;
+  position: relative;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  color: #fbfbfb;
+  z-index: -1;
+}
+header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; }
+/* footer {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+         
+    } */
+      
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.form-check-label {
+    font-size: 16px; /* Tùy chỉnh kích thước font */
+    color: #333; /* Tùy chỉnh màu chữ */
+}
